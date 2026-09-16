@@ -1,0 +1,36 @@
+{
+  "name": "preconfigproject",
+  "version": "1.0.0",
+  "description": "Visual configurator & hub for AI coding agent skills, rules, MCP servers & themes (Google Antigravity & Claude Code)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiubr/preConfigProject.git"
+  },
+  "keywords": [
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "mcp",
+    "mcp-servers",
+    "agent-skills",
+    "developer-tools",
+    "code-generation"
+  ],
+  "author": "Claudiu Bran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudiubr/preConfigProject/issues"
+  },
+  "homepage": "https://github.com/claudiubr/preConfigProject#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

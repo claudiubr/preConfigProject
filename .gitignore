@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & OS
+.env
+.env.local
+.DS_Store
+
+# Temporary directories & cache
+scratch/
+graphify-out/cache/
+graphify-out/.*
+
+# Local user configurations
+saved_projects*.json
